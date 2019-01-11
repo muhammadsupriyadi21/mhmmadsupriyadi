@@ -1,0 +1,144 @@
+* {
+	font-weight: 200;
+	letter-spacing:1px;
+
+}
+
+body {
+	padding-top: 80px;
+
+}
+
+h3 {
+	margin: 0;
+}
+
+
+.color-white {
+	color: #3e3e3e;
+	
+}
+
+.img-center {
+	margin:0 auto;
+	
+}
+
+.navbar {
+	min-height: 80px;
+	border-radius: 0;
+	margin-bottom: 0;
+	border-bottom: solid 6px #0087e6;
+	box-shadow: 0 2px 10px 0 #818181;
+}
+
+.navbar-brand {
+	padding: 0 15px;
+	height: 80px;
+	line-height: 80px;
+}
+
+.navbar-brand>img {
+	margin-top: 20px;
+	max-width: 150px;
+}
+
+.navbar-toggle {
+	margin-top: 23px;
+	padding: 9px 10px !important;
+}
+
+@media (min-width: 760px) {
+	.navbar-nav > li > a {
+		padding-top: 26.5px;
+		padding-bottom: 26.5px;
+		line-height: 27px;
+		font-weight: 400;
+		letter-spacing: 2px;
+	}
+}
+
+h1.tittle {
+	font-size: 2.5em;
+	font-weight: 300;
+	margin: 0;
+	margin-bottom: 10px;
+	letter-spacing: 5px;
+}
+
+#about {
+	background: white;
+	color: black;
+}
+
+#about img, #portfolio img {
+	width: 100%;
+}
+
+#about, #portfolio, #team, #contact {
+	padding: 50px 0;
+}
+
+#team {
+	background: white;
+}
+
+#team img {
+	width: 70%;
+	border: solid 5px black;
+}
+
+.team-name {
+	padding: 10px;
+	background: #black;
+}
+
+#portfolio {
+	background: #white;
+}
+
+.portfolio-tittle {
+	padding: 10px;
+	background: white;
+	height: 100%;
+}
+
+.portfolio-tittle h3 {
+	font-size: 1em;
+	color: #black;
+}
+
+.portfolio h1 {
+	font-size: 1em;
+	color: #black;
+}
+
+#contact {
+	color: #black;
+	background: white;
+}
+
+footer {
+	padding: 7px 0;
+	background: black;
+	color: #fff;
+	font-weight: 500;
+}
+
+@media only screen and (max-width: 640px) {
+	.box-portfolio {
+		margin-bottom: 20px;
+	}
+
+	#about img {
+		margin-bottom: 20px;
+	}
+
+	#about, #portfolio, #team, #contact {
+		padding: 30px 0;
+	}
+
+	#contact {
+		text-align: center;
+	}
+}
